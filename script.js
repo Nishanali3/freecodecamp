@@ -293,3 +293,48 @@ if (done === count) {
 
 rows.push(padRow(done, count));
 
+while (done !== count) {
+    done++;
+    rows.push(padRow(done, count));
+    if (done === count) {
+        continueLoop = false;
+    }
+}
+
+while (done !== count) {
+    done++;
+    rows.push(padRow(done, count));
+}
+
+let done = 0;
+
+while (done <= count) {
+    done++;
+    rows.push(padRow(done, count));
+}
+
+let done = 0;
+
+while (rows.length < count) {
+    done++;
+    rows.push(padRow(done, count));
+}
+
+let done = 0;
+
+while (rows.length < count) {
+    done++;
+    rows.push(padRow(rows.length + 1, count));
+}
+
+while (rows.length < count) {
+    rows.push(padRow(rows.length + 1, count));
+}
+
+/*while (rows.length < count) {
+  rows.push(padRow(rows.length + 1, count));
+}*/
+
+for (let i = count; false; false) { }
+
+for (let i = count; i > 0; false) { }
