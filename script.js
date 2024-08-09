@@ -94,3 +94,46 @@ for (const row of rows) {
 for (const row of rows) {
     result = result + '\n' + row;
 }
+
+
+for (let i = 0; i < count; i = i + 1) {
+    rows.push(character);
+}
+
+
+for (let i = 0; i < count; i = i + 1) {
+    rows.push(character.repeat(i));
+}
+
+for (let i = 0; i < count; i = i + 1) {
+    rows.push(character.repeat(i + 1))
+}
+
+function padRow() { }
+padRow();
+const call = padRow();
+console.log(call);
+
+function padRow() {
+    return "Hello!"
+}
+
+function padRow(name) {
+    return "Hello!";
+}
+
+
+function padRow(name) {
+    return name;
+}
+
+const call = padRow('Nishanali');
+
+//   step 55:
+
+function addTwoNumbers(a, b) {
+    return a + b;
+};
+const sum = addTwoNumbers(5, 10);
+console.log(sum);
+
