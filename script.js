@@ -252,4 +252,44 @@ if ("") {
     console.log("Condition is true");
 }
 
+if ("") {
+    console.log("Condition is true");
+} else if (5 < 10) {
+    console.log("5 is less than 10");
+}
+
+if ("") {
+    console.log("Condition is true");
+} else if (5 < 10) {
+    console.log("5 is less than 10");
+} else {
+    console.log("This is the else block")
+}
+
+let continueLoop = false;
+let done = 0;
+
+while (continueLoop) {
+
+}
+
+while (continueLoop) {
+    done++;
+}
+
+while (continueLoop) {
+    done++;
+    if (done == count) {
+    }
+}
+
+if (done === count) {
+
+}
+
+if (done === count) {
+    continueLoop = false
+}
+
+rows.push(padRow(done, count));
 
