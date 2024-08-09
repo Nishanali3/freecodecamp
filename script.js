@@ -137,3 +137,48 @@ function addTwoNumbers(a, b) {
 const sum = addTwoNumbers(5, 10);
 console.log(sum);
 
+function padRow(name) {
+    return character + name;
+}
+
+function padRow(name) {
+    const test = "Testing";
+    return character + name;
+}
+
+function padRow(name) {
+    const test = "Testing";
+    return test;
+}
+
+function padRow(name) {
+    const test = "Testing";
+    console.log("This works!");
+    return test;
+    console.log("This works!");
+}
+
+function padRow() {
+    const test = "Testing";
+    return test;
+}
+const call = padRow();
+console.log(call);
+
+function padRow() {
+
+}
+const call = padRow();
+console.log(call);
+
+function padRow() {
+
+}
+
+function padRow(rowNumber, rowCount) {
+
+}
+
+function padRow(rowNumber, rowCount) {
+    return character.repeat(rowNumber);
+}
