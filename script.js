@@ -182,3 +182,40 @@ function padRow(rowNumber, rowCount) {
 function padRow(rowNumber, rowCount) {
     return character.repeat(rowNumber);
 }
+
+for (let i = 0; i < count; i = i + 1) {
+    rows.push(padRow())
+}
+
+for (let i = 0; i < count; i = i + 1) {
+    rows.push(padRow(i + 1, count))
+}
+
+function padRow(rowNumber, rowCount) {
+    return " " + character.repeat(rowNumber) + " ";
+}
+
+function padRow(rowNumber, rowCount) {
+    const spaces = " ".repeat(rowCount - rowNumber);
+    const characters = "#".repeat(rowNumber * 2 - 1);
+    return spaces + characters + spaces;
+}
+
+function padRow(rowNumber, rowCount) {
+    const spaces = " ".repeat(rowCount - rowNumber);
+    const characters = "#".repeat(2 * rowNumber - 1);
+    return spaces + characters + spaces;
+}
+
+// for (let i = 0; i < count; i += 1) {
+
+// for (let i = 0; i < count; i ++) {
+
+for (let i = 1; i < count; i++) {
+    rows.push(padRow(i + 1, count));
+}
+
+for (let i = 1; i < count; i++) {
+    rows.push(padRow(i, count));
+}
+
